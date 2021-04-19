@@ -1,5 +1,7 @@
-CREATE TABLE book (id INTEGER ,book_name TEXT ,rating INTEGER);
+CREATE TABLE Books (id INTEGER ,name TEXT ,rating INTEGER);
 
-INSERT INTO book (1,"Harry Potter",4);
+INSERT INTO books VALUES (1,"Harry Potter", 5);
+INSERT INTO books VALUES (2,"Cinderlla",4);
+INSERT INTO books VALUES (3,"King Lear",3.5);
 
-SELECT * from book ;
+SELECT * FROM books where rating >= 4 ;
