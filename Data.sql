@@ -11,3 +11,6 @@ SELECT * FROM books; /*Quereing the table*/
 SELECT * FROM books where rating >= 4 ;
 SELECT * FROM books ORDER by release_year;
 SELECT * FROM books WHERE rating>=6 ORDER by release_year;
+
+SELECT * ,MAX(release_year) FROM Books;
+SELECT * ,MIN(release_year) FROM Books;
