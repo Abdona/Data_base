@@ -29,3 +29,5 @@ SELECT * ,MAX(release_year) FROM Books;
 SELECT * ,MIN(release_year) FROM Books;
 
 SELECT name FROM Books WHERE release_year>1995 AND price<20;
+SELECT release_year FROM Books WHERE name IN ("Harry Potter","Cinderlla")
+/*SELECT title FROM songs WHERE artist IN (SELECT name FROM artists WHERE genre="Pop");*/
